@@ -1,0 +1,135 @@
+body{
+    background-image: radial-gradient(circle at -11.27% 60.8%, #ffdade 0, #ffd2dd 10%, #ffc9dd 20%, #ffbfdd 30%, #ffb5de 40%, #ffabdf 50%, #f2a2e1 60%, #e39ae4 70%, #d295e8 80%, #bf91ec 90%, #a990f1 100%);
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display:flex;
+    justify-content:center;
+    background-color:#2e2e2e;
+    height:95px;
+    border-radius:15px;
+    align-items:center;
+    margin: 15px 15px;
+    
+    
+  }
+  nav ul{
+    display:flex;
+    
+  }
+  nav li{
+    list-style:none;
+    padding: 0px 20px;
+    
+  }
+  nav a {
+    text-decoration:none;
+    color:#fff;
+    font-size:25px;
+    font-family:sans-serif;
+  }
+  nav a:hover{
+    background:#ff007b;
+  }
+  main{
+    max-height:50%
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  p{
+    padding:10px;
+  }
+  .card {
+    border: 1px rgba(0, 0, 0, 0.378) solid;
+    border-radius: 10px;
+    width: 200 px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    transition: all 0.25s;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .card img{
+    width: 150px;
+    height:150px;
+  }
+  .cards {
+  display: flex;
+  
+  }
+  #painters img{
+    transition: all 300ms;
+    position:relative
+  }
+  #painters img:hover{
+    transform:scale(1.15);
+  }
+  
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .contact input,
+  textarea,
+  select {
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #7b7b7d83;
+    background-color:#f0f0f0;
+  }
+  
+  .contact button {
+    background-color: #e916c4;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #7b7b7d83;
+    margin-bottom: 15px;
+    width: 50%;
+    margin: 10px auto;
+  }
+  
+  .contact h1{
+      text-align: center;
+      margin-top: 80px;
+  }
+  .type-image img{
+    border-radius:15%;
+    border:#cace7a 1px solid;
+    width:30%;
+    height:25%;
+    margin-right:20px;
+    margin-bottom:20px;
+    justify-content:center;
+    background-color:purple;
+  }
+  footer {
+    max-height: 20%;
+    display:flex;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #a871a3;
+    color: #fff;
+    
+  }
+  img{
+    text-align:center;
+  }
+  a img{
+    width:120px;
+    
+    
+  }
+  
